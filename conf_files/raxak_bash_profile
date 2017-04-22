@@ -1,0 +1,11 @@
+# .bash_profile
+# Get the aliases and functions
+if [ -f ~/.bashrc ]; then
+	. ~/.bashrc
+fi
+# User specific environment and startup programs
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+export PATH
+export WORKON_HOME=/u01/rp/.virtualenvs
+source /usr/local/bin/virtualenvwrapper.sh
+
